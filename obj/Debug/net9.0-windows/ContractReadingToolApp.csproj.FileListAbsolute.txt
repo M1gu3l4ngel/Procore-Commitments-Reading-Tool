@@ -1,0 +1,17 @@
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\bin\Debug\net9.0-windows\ContractReadingToolApp.exe
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\bin\Debug\net9.0-windows\ContractReadingToolApp.deps.json
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\bin\Debug\net9.0-windows\ContractReadingToolApp.runtimeconfig.json
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\bin\Debug\net9.0-windows\ContractReadingToolApp.dll
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\bin\Debug\net9.0-windows\ContractReadingToolApp.pdb
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.Form1.resources
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.Properties.Resources.resources
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.csproj.GenerateResource.cache
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.AssemblyInfoInputs.cache
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.AssemblyInfo.cs
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.dll
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\refint\ContractReadingToolApp.dll
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.pdb
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ContractReadingToolApp.genruntimeconfig.cache
+C:\Users\Miguel Serrao\source\repos\ContractReadingToolApp\ContractReadingToolApp\obj\Debug\net9.0-windows\ref\ContractReadingToolApp.dll
