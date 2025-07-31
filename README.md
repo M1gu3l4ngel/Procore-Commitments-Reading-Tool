@@ -53,6 +53,8 @@ cd ContractReadingToolApp
 3. Asegúrate de seleccionar la configuración Debug o Release
 4. Ejecuta con F5 o compila con Ctrl + Shift + B
 
+---
+
 🤝 Contribuciones
 ¿Quieres ayudar? ¡Perfecto! Sigue estos pasos:
 
