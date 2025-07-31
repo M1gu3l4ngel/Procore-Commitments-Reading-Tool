@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
@@ -13,7 +13,7 @@ namespace ContractReadingToolApp
             AttachEventHandlers(); // Asocia eventos a los controles
         }
 
-        // Configura los eventos Leave de los campos de texto y el botón de reset
+        // Configura los eventos Leave de los campos de texto y el botÃ³n de reset
         private void AttachEventHandlers()
         {
             txtOriginalContractSum.Leave += (s, e) => OnFieldLeave(txtOriginalContractSum);
@@ -32,7 +32,7 @@ namespace ContractReadingToolApp
             CalculateAllValues();
         }
 
-        // Aplica formato numérico con comas y dos decimales
+        // Aplica formato numÃ©rico con comas y dos decimales
         private void FormatTextBox(TextBox textBox)
         {
             if (double.TryParse(textBox.Text.Replace(",", ""), out double value))
@@ -43,20 +43,20 @@ namespace ContractReadingToolApp
             }
         }
 
-        // Ejecuta los cálculos solo si hay algún campo con datos
+        // Ejecuta los cÃ¡lculos solo si hay algÃºn campo con datos
         private void CalculateAllValues()
         {
             if (AllInputsAreEmpty())
                 return;
 
-            // Convertir los textos de entrada a números
+            // Convertir los textos de entrada a nÃºmeros
             double originalContract = ParseToDouble(txtOriginalContractSum.Text);
             double netChangeOrders = ParseToDouble(txtNetChangeByChangeOrders.Text);
             double revisedContractActual = ParseToDouble(txtRevisedContractSumActual.Text);
             double totalChangeOrders = ParseToDouble(txtNewTotalChangeOrders.Text);
             double pendingInvoicesERP = ParseToDouble(txtInvoicesERP.Text);
 
-            // Ejecutar la lógica del cálculo principal
+            // Ejecutar la lÃ³gica del cÃ¡lculo principal
             var result = CalculateContractMetrics(
                 originalContract,
                 netChangeOrders,
@@ -71,7 +71,7 @@ namespace ContractReadingToolApp
             txtInvoicesAdjustCalculated.Text = result.InvoiceAdjustment.ToString("#,##0.00");
         }
 
-        // Verifica si todos los campos están vacíos
+        // Verifica si todos los campos estÃ¡n vacÃ­os
         private bool AllInputsAreEmpty()
         {
             return string.IsNullOrWhiteSpace(txtOriginalContractSum.Text) &&
@@ -94,11 +94,11 @@ namespace ContractReadingToolApp
 
             double invoiceAdjustment = 0;
 
-            // Caso 1: contrato revisado tiene cambio negativo pero hay órdenes positivas
+            // Caso 1: contrato revisado tiene cambio negativo pero hay Ã³rdenes positivas
             if (netChangeOrders < 0 && totalChangeOrders > 0)
                 invoiceAdjustment = totalChangeOrders;
 
-            // Caso 2: diferencia negativa ? se ajusta descontando lo pendiente en ERP
+            // Caso 2: diferencia negativa â†’ se ajusta descontando lo pendiente en ERP
             else if (difference < 0)
                 invoiceAdjustment = -difference - pendingInvoicesERP;
 

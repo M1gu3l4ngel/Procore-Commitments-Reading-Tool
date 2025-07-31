@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContractReadingToolApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+328fddf0696ed0afe6d9b48ee19e460b0ab3178f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContractReadingToolApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContractReadingToolApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
