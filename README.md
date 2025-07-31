@@ -2,6 +2,8 @@
 
 Una herramienta de escritorio en Windows Forms para calcular ajustes contractuales de forma precisa y rápida. Ideal para contratistas, contadores y profesionales que trabajan con contratos, change orders y pagos pendientes en ERP.
 
+<img width="587" height="440" alt="image" src="https://github.com/user-attachments/assets/53a0ca25-18a0-4daf-90bf-fbb95a1edb7c" />
+
 ---
 
 ## 🚀 Funcionalidades
